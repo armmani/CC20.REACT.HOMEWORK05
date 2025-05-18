@@ -18,7 +18,7 @@ function App() {
         />
         <hr className='p-2 mt-4'/>
         <Total selectedToppings={selectedToppings} />
-        <div className='flex justify-around mt-4'>
+        <div className='flex gap-20 mt-4'>
           <button className='btn btn-active btn-info' onClick={() => setShowSummary(true)}>Check Out</button>
           <button className='btn btn-active btn-error' onClick={() => {
             setSelectedToppings([]);
